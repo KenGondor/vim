@@ -21,3 +21,6 @@ highlight ColorColumn ctermbg=lightgrey
 
 " Auto inserts closing brace and indents when entering opening brace
 inoremap {<Cr> {<Cr>}<Esc>ko
+
+" Sets tab for autocompletion (within file)
+inoremap <Tab> <C-n>
