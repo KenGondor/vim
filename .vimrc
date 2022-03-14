@@ -18,4 +18,4 @@ set expandtab
 set number
 
 " Auto inserts closing brace and indents when entering opening brace
-inoremap { {<Cr>}<Esc>ko
+inoremap {<Cr> {<Cr>}<Esc>ko
