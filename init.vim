@@ -28,12 +28,15 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-" Theming
+" Ported from vimrc
 syntax enable
 set nu
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set softtabwidth=4
+
+" Theming
 colorscheme onedark
 
 
