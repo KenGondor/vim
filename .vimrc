@@ -14,8 +14,10 @@ set softtabstop =4
 set shiftwidth  =4
 set expandtab
 
-" Sets line number for visibility
+" Accessibility settings
 set number
+set cc=120
+highlight ColorColumn ctermbg=lightgrey
 
 " Auto inserts closing brace and indents when entering opening brace
 inoremap {<Cr> {<Cr>}<Esc>ko
