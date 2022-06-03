@@ -4,7 +4,7 @@ set nocompatible
 filetype plugin indent on
 
 " Color Scheme
-colo torte
+colo elflord
 
 syntax on
 
