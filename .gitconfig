@@ -1,0 +1,8 @@
+[user]
+    name = <name>
+    email = <email>
+[core]
+    editor = vim
+[alias]
+    g = log --pretty=oneline --graph --decorate --all
+    pu = push --set-upstream
