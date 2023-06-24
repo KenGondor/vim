@@ -19,6 +19,7 @@ Import-Module Terminal-Icons
 Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 # Utilities
 function which ($command) {
