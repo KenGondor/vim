@@ -1,7 +1,7 @@
 Set-Alias vim code
 Set-Alias omp oh-my-posh.exe
 
-# Run Install-Module -Name Terminal-Icons -Force
+# Run Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 Import-Module Terminal-Icons
 
 # Run Install-Module -Name z -Force
