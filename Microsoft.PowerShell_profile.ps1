@@ -1,5 +1,5 @@
 # Ensure neovim is installed, and oh my posh is installed
-# Run: 
+# Run:
 # winget install --id Git.Git -e --source winget
 # winget install Neovim.Neovim
 # winget install JanDeDobbeleer.OhMyPosh -s winget
@@ -27,4 +27,14 @@ function which ($command) {
       Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
 
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/easy-term.omp.json" | Invoke-Expression
+############## Mozilla Firefox shortcuts
+function cdmoz () {
+  Set-Location -Path C:\mozilla-source\mozilla-unified
+}
+
+function start_shell () {
+  & C:\mozilla-build\start-shell.bat
+}
+##############
+
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/markbull.omp.json" | Invoke-Expression
