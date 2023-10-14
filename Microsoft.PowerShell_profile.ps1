@@ -32,7 +32,7 @@ function cdmoz () {
   Set-Location -Path C:\mozilla-source\mozilla-unified
 }
 
-function start_shell () {
+function start_moz () {
   & C:\mozilla-build\start-shell.bat
 }
 ##############
