@@ -23,6 +23,7 @@ filetype plugin indent on
 
 " Color Scheme
 colo gruvbox
+set background=dark
 
 syntax on
 
