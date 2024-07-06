@@ -13,6 +13,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 set nocompatible
