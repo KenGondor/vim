@@ -14,7 +14,7 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
-Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons' " This should be the last plugin 
 call plug#end()
 
 set nocompatible
