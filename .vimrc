@@ -14,6 +14,7 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
+Plug 'ryanoasis/dev-icons'
 call plug#end()
 
 set nocompatible
