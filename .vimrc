@@ -58,3 +58,12 @@ nnoremap <silent> coh :call gruvbox#hls_toggle()<CR>
 nnoremap * :let @/ = ""<CR>:call gruvbox#hls_show()<CR>*
 nnoremap / :let @/ = ""<CR>:call gruvbox#hls_show()<CR>/
 nnoremap ? :let @/ = ""<CR>:call gruvbox#hls_show()<CR>?
+
+" NERDTree Configs
+let g:NERDTreeShowHidden = 1
+let g:NERDTreeIgnore = []
+let g:NERDTreeStatusline = ''
+nnoremap <silent> <C-b> :NERDTreeToggle<CR>
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | wincmd p | endif
+set guifont=FiraCode_Nerd_Font:h11
