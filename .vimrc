@@ -19,6 +19,9 @@ set number
 set cc=120
 highlight ColorColumn ctermbg=lightgrey
 
+" Sets UTF encoding for devicons
+set encoding=UTF-8
+
 " Auto inserts closing brace and indents when entering opening brace
 inoremap {<Cr> {<Cr>}<Esc>ko
 
