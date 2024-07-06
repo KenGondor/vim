@@ -22,7 +22,7 @@ set nocompatible
 filetype plugin indent on
 
 " Color Scheme
-colo elflord
+colo gruvbox
 
 syntax on
 
