@@ -41,3 +41,6 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 call plug#end()
+
+" Lightline settings for statusline
+set laststatus=2
