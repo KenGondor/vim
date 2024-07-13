@@ -1,3 +1,5 @@
+set nocompatible
+
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -18,8 +20,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons' " This should be the last plugin 
 call plug#end()
-
-set nocompatible
 
 " Sets auto indent when moving to next line
 filetype plugin indent on
