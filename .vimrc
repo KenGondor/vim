@@ -24,10 +24,6 @@ call plug#end()
 " Sets auto indent when moving to next line
 filetype plugin indent on
 
-" Color Scheme
-colo gruvbox
-set background=dark
-
 syntax on
 
 " Tab settings
@@ -53,11 +49,6 @@ inoremap <Tab> <C-n>
 " Lightline settings for statusline
 set laststatus=2
 
-" Gruvbox color scheme settings
-nnoremap <silent> [oh :call gruvbox#hls_show()<CR>
-nnoremap <silent> ]oh :call gruvbox#hls_hide()<CR>
-nnoremap <silent> coh :call gruvbox#hls_toggle()<CR>
-
 nnoremap * :let @/ = ""<CR>:call gruvbox#hls_show()<CR>*
 nnoremap / :let @/ = ""<CR>:call gruvbox#hls_show()<CR>/
 nnoremap ? :let @/ = ""<CR>:call gruvbox#hls_show()<CR>?
@@ -73,3 +64,13 @@ set guifont=FiraCode_Nerd_Font:h11
 
 " Automaticaly close nvim if NERDTree is only thing left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+
+" Color Scheme
+colo gruvbox
+set background=dark
+
+" Gruvbox color scheme settings
+nnoremap <silent> [oh :call gruvbox#hls_show()<CR>
+nnoremap <silent> ]oh :call gruvbox#hls_hide()<CR>
+nnoremap <silent> coh :call gruvbox#hls_toggle()<CR>
